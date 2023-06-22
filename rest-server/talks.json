@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Cosmic Convergence",
+    "subtitle": "A Celestial Journey into the Unknown",
+    "startTime": "2023-06-22T09:00:00",
+    "endTime": "2023-06-22T11:00:00",
+    "duration": 120
+  },
+  {
+    "title": "Spectrum of Sound",
+    "subtitle": "A Melodic Fusion of Music and Technology",
+    "startTime": "2023-06-22T12:00:00",
+    "endTime": "2023-06-22T14:00:00",
+    "duration": 120
+  },
+  {
+    "title": "Artistry Unleashed",
+    "subtitle": "An Exhibition of Boundary-Breaking Creations",
+    "startTime": "2023-06-22T15:00:00",
+    "endTime": "2023-06-22T17:00:00",
+    "duration": 120
+  },
+  {
+    "title": "Adrenaline Rush",
+    "subtitle": "The Ultimate Adventure Experience",
+    "startTime": "2023-06-22T18:00:00",
+    "endTime": "2023-06-22T20:00:00",
+    "duration": 120
+  },
+  {
+    "title": "Innovation Summit",
+    "subtitle": "Exploring Cutting-Edge Technologies for a Better Future",
+    "startTime": "2023-06-22T21:00:00",
+    "endTime": "2023-06-22T23:00:00",
+    "duration": 120
+  }
+]
