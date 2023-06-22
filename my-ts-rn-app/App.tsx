@@ -82,6 +82,14 @@ const useTalks = () => {
     const isFavoritedAlready = isFavorite(talkName);
     if (isFavoritedAlready) {
       await setFavoriteTalkNames((oldTalkNames) => {
+        /**
+         *👋 Hey John! I found our bug! It was in my filter method
+         * I just had to negate the first equals of course to
+         * allow items to pass whose names were NOT the one
+         * we were removing.🤦🏻‍
+         */
+        return oldTalkNames.filter((name) => name !== talkName);
+      });
     } else {
       await setFavoriteTalkNames((oldTalkNames) => [...oldTalkNames, talkName]);
     }
