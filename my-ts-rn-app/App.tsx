@@ -96,9 +96,15 @@ const useTalks = () => {
   };
 
   useEffect(() => {
-    talksApi.getTalks().then((talks) => {
-      setTalks(talks);
-    });
+    talksApi
+      .getTalks()
+      .then((talks) => {
+        if (!talks) return;
+        setTalks(talks);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   }, []);
 
   return { talks, toggleFavorite, isFavorite };
